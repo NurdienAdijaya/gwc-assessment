@@ -1,0 +1,93 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useState } from "react";
+import { Button, Form } from "react-bootstrap";
+import "../assets/styles/login.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../assets/images/logo.png";
+import apple from "../assets/images/AppleAuth.png";
+import facebook from "../assets/images/FacebookAuth.png";
+import google from "../assets/images/GoogleAuth.png";
+
+const Login = () => {
+  const [login, setLogin] = useState(true);
+
+  const handleSignUp = () => setLogin(false);
+  const handleLogin = () => setLogin(true);
+  return (
+    <div className="login_body">
+      <div className="login">
+        <div className="logo_space">
+          <h1>
+            <img className="mb-2" src={logo} alt="Logo" /> Audio
+          </h1>
+          <p className="bold">It's modular and designed to last</p>
+        </div>
+        {login ? (
+          <>
+            <div className="form_space">
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Control
+                  className="form_radius"
+                  type="email"
+                  placeholder="Email"
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Control
+                  className="form_radius"
+                  type="password"
+                  placeholder="Password"
+                />
+              </Form.Group>
+            </div>
+            <p className="bold mb-5">Forgot Password</p>
+            <Button className="login_button form_radius mb-3" type="submit">
+              Submit
+            </Button>
+            <p>
+              Didn’t have any account?{" "}
+              <a className="link" onClick={handleSignUp}>
+                Sign Up here
+              </a>
+            </p>
+          </>
+        ) : (
+          <>
+            <div>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Control
+                  className="form_radius"
+                  type="email"
+                  placeholder="Email"
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Control
+                  className="form_radius"
+                  type="password"
+                  placeholder="Password"
+                />
+              </Form.Group>
+            </div>
+            <Button className="login_button form_radius mb-3" type="submit">
+              Submit
+            </Button>
+            <div className="my-4">
+              <img className="mx-2" src={apple} alt="apple" />
+              <img className="mx-2" src={facebook} alt="facebook" />
+              <img className="mx-2" src={google} alt="google" />
+            </div>
+            <p>
+              If you have an account?{" "}
+              <a className="link" onClick={handleLogin}>
+                Sign In here
+              </a>
+            </p>
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Login;

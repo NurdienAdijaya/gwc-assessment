@@ -1,4 +1,5 @@
 h1 {
+  font-size: 51.05px;
   margin: 0 !important;
 }
 
@@ -27,7 +28,7 @@ h6 {
 }
 
 p {
-  font-size: small;
+  font-size: 14px;
   margin: 0 !important;
 }
 
@@ -38,4 +39,8 @@ a {
 
 a:hover {
   color: aquamarine;
+}
+.bold {
+  font-weight: 700;
+  font-size: 14px;
 }
