@@ -275,7 +275,7 @@
 }
 .detail_suggest {
   /* height: 319px; */
-  padding: 10px 20px;
+  padding: 1px 20px;
   margin: 30px 0;
 
   /* Colors / Grey Light 1 */
@@ -327,4 +327,126 @@
   order: 0;
   flex-grow: 0;
   margin: 10px 0px;
+}
+.featured_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* height: 600px; */
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0 20px;
+  /* height: 314px; */
+}
+.featured_title {
+  position: static;
+  /* height: 34px; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.featured1 {
+  position: static;
+  /* width: 318px; */
+  /* height: 132px; */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: 0.2px;
+
+  /* Colors / Default */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  margin: 13px 0px;
+}
+.featured2 {
+  position: static;
+  /* width: 318px; */
+  /* height: 132px; */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: 0.2px;
+
+  /* Colors / Default */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  margin: 13px 0px;
+}
+.featured_detail_container {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.featured_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  align-self: stretch;
+  margin: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0.1875rem 0.625rem rgb(148, 148, 148);
+}
+.featured_detail_img {
+  position: static;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0px 14px;
+}
+.featured_detail_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 205px;
+  height: 122px;
+  left: 113px;
+  margin: 0px 14px;
+}
+.featured_detail_title {
+  position: static;
+  width: 205px;
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin: 8px 0px;
+}
+.featured_detail_desc {
+  position: static;
+  width: 205px;
+  height: 66px;
+  top: 56px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  margin: 8px 0px;
 }

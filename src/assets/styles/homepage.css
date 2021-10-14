@@ -76,7 +76,7 @@
   order: 2;
   align-self: stretch;
   flex-grow: 0;
-  margin: 20px 0px;
+  margin: 50px 0 20px 0px;
 }
 .home_features {
   position: static;
