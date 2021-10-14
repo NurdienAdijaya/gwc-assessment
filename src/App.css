@@ -1,3 +1,24 @@
+::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 216, 216);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(150, 150, 150);
+  border-radius: 10px;
+}
+
 h1 {
   font-size: 51.05px;
   margin: 0 !important;
@@ -42,5 +63,26 @@ a:hover {
 }
 .bold {
   font-weight: 700;
+}
+
+p {
   font-size: 14px;
+  margin: 0 !important;
+}
+.font_14 {
+  font-size: 14px !important;
+}
+.font_16 {
+  font-size: 16px !important;
+}
+.font_18 {
+  font-size: 18px !important;
+}
+.font_26 {
+  font-size: 26px !important;
+}
+.searchbar {
+  max-width: 400px;
+  width: inherit;
+  margin: 0 20px;
 }

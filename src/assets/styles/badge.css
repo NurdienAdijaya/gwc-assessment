@@ -1,0 +1,18 @@
+.badge_body {
+  display: flex;
+
+  overflow-x: auto;
+  margin: 0 0 20px 0;
+}
+.badge_pill {
+  border-radius: 30px;
+
+  height: 25px;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+}

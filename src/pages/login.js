@@ -13,6 +13,12 @@ const Login = () => {
 
   const handleSignUp = () => setLogin(false);
   const handleLogin = () => setLogin(true);
+
+  const submit = () => {
+    localStorage.setItem("token", "This Is A Token");
+    window.location.reload();
+  };
+
   return (
     <div className="login_body">
       <div className="login">
@@ -41,7 +47,11 @@ const Login = () => {
               </Form.Group>
             </div>
             <p className="bold mb-5">Forgot Password</p>
-            <Button className="login_button form_radius mb-3" type="submit">
+            <Button
+              onClick={submit}
+              className="login_button form_radius mb-3"
+              type="submit"
+            >
               Submit
             </Button>
             <p>
@@ -69,7 +79,11 @@ const Login = () => {
                 />
               </Form.Group>
             </div>
-            <Button className="login_button form_radius mb-3" type="submit">
+            <Button
+              onClick={submit}
+              className="login_button form_radius mb-3"
+              type="submit"
+            >
               Submit
             </Button>
             <div className="my-4">
