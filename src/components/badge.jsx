@@ -12,11 +12,7 @@ const PillBadge = () => {
     "Handsfree",
     "Earbuds",
   ];
-  const [
-    active,
-    // setActive
-  ] = useState("Headphone");
-  //   const handleActive = (e) => setActive(e);
+  const [active, setActive] = useState("Headphone");
   return (
     <div className="badge_body">
       {category.map((item, index) => {
@@ -26,6 +22,9 @@ const PillBadge = () => {
               backgroundColor: active === item ? "#0ACF83" : null,
             }}
             className="badge_pill"
+            onClick={() => {
+              setActive(item);
+            }}
           >
             {item}
           </div>
