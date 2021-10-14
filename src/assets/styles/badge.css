@@ -2,17 +2,15 @@
   display: flex;
 
   overflow-x: auto;
-  margin: 0 0 20px 0;
+  margin: 0 0 1.25rem 0;
 }
 .badge_pill {
-  border-radius: 30px;
+  border-radius: 1.875rem;
 
-  height: 25px;
-  left: 0px;
-  top: 0px;
+  height: 1.5625rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 15px;
+  padding: 0.625rem 0.9375rem;
 }

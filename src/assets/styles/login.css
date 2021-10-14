@@ -11,10 +11,10 @@
   background-position: center;
 }
 .login {
-  width: 400px;
+  width: 25rem;
   height: 60vh;
   text-align: center;
-  margin: 0 15px;
+  margin: 0 0.9375rem;
 }
 .login_button {
   background-color: #0acf83 !important;
@@ -22,10 +22,10 @@
   width: 100%;
 }
 .logo_space {
-  margin-bottom: 66.4px;
+  margin-bottom: 4.15rem;
 }
 .form_space {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 .form_radius {
   border-radius: 0.5rem !important;

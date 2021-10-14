@@ -20,7 +20,9 @@ const Detail = () => {
         <Link to="/">
           <img src={back} alt="Back" />
         </Link>
-        <img src={cart} alt="Cart" />
+        <Link to="/cart">
+          <img src={cart} alt="Cart" />
+        </Link>
       </div>
       <div className="detail_title">
         <p className="detail_title_price">USD 350</p>
@@ -42,7 +44,7 @@ const Detail = () => {
                 className="detail_navigation_line"
                 style={{
                   backgroundColor: active === item ? "#0ACF83" : null,
-                  border: active === item ? "solid 1px #0ACF83 " : null,
+                  border: active === item ? "solid 0.0625rem #0ACF83 " : null,
                 }}
               ></div>
             </div>
@@ -202,9 +204,11 @@ const Detail = () => {
         </div>
       )}
       <div className="detail_cart_container">
-        <div className="detail_cart_button">
-          <p className="detail_cart_button_text">Add To Cart</p>
-        </div>
+        <Link to="/cart">
+          <div className="detail_cart_button">
+            <p className="detail_cart_button_text">Add To Cart</p>
+          </div>
+        </Link>
       </div>
     </div>
   );

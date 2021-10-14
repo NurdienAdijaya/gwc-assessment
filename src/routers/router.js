@@ -1,5 +1,6 @@
 import { Route, Switch } from "react-router";
 import Header from "../components/header";
+import Cart from "../pages/cart";
 import Detail from "../pages/detail";
 import Homepage from "../pages/homepage";
 import Login from "../pages/login";
@@ -15,10 +16,11 @@ const Routers = () => {
 
           {token ? <Homepage /> : <Login />}
         </Route>
-      </Switch>
-      <Switch>
         <Route exact path="/detail">
           <Detail />
+        </Route>
+        <Route exact path="/cart">
+          <Cart />
         </Route>
       </Switch>
     </>
