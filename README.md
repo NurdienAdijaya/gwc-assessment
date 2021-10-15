@@ -1,6 +1,6 @@
 # Welcome to NURD x Radio Slice Project.
 
-You can see live app at https://nurd-radio.netlify.app/
+You can see live app at https://nurd-audio.netlify.app/
 
 This project was created in order to slicing assessment.
 
