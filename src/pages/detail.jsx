@@ -9,6 +9,7 @@ import rating from "../assets/images/rating.png";
 import img8 from "../assets/images/image8.png";
 import img9 from "../assets/images/image9.png";
 import Product from "../components/product";
+import Header from "../components/header";
 
 const Detail = () => {
   const navigation = ["Overview", "Features", "Specification"];
@@ -16,14 +17,14 @@ const Detail = () => {
   const [active, setActive] = useState("Overview");
   return (
     <div className="detail_body">
-      <div className="detail_header">
-        <Link to="/">
-          <img src={back} alt="Back" />
-        </Link>
-        <Link to="/cart">
-          <img src={cart} alt="Cart" />
-        </Link>
-      </div>
+      <Header
+        link1="/"
+        img1={back}
+        alt1="Back"
+        link2="/cart"
+        img2={cart}
+        alt2="Cart"
+      />
       <div className="detail_title">
         <p className="detail_title_price">USD 350</p>
         <p className="detail_title_text">TMA-2 HD WIRELESS</p>

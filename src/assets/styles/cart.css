@@ -1,17 +1,17 @@
 .cart_title {
-  width: 7.125rem;
   height: 1.25rem;
   left: 8.15625rem;
   top: 1.09375rem;
-
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.25rem;
-
   text-align: center;
   letter-spacing: 0.0125rem;
 
+  white-space: pre-wrap;
   flex: none;
   flex-grow: 0;
   margin: 0rem 7.0625rem;

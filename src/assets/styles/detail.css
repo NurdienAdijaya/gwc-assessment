@@ -168,7 +168,6 @@
 .detail_review_container {
   display: flex;
   flex-direction: row;
-  margin: 0 1.4375rem;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 1.25rem;

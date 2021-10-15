@@ -1,9 +1,10 @@
 import { Route, Switch } from "react-router";
-import Header from "../components/header";
+import Sidebar from "../components/sidebar";
 import Cart from "../pages/cart";
 import Detail from "../pages/detail";
 import Homepage from "../pages/homepage";
 import Login from "../pages/login";
+import Profile from "../pages/profile";
 
 const Routers = () => {
   const token = localStorage.getItem("token");
@@ -12,8 +13,6 @@ const Routers = () => {
     <>
       <Switch>
         <Route exact path="/">
-          {token && <Header />}
-
           {token ? <Homepage /> : <Login />}
         </Route>
         <Route exact path="/detail">
@@ -21,6 +20,12 @@ const Routers = () => {
         </Route>
         <Route exact path="/cart">
           <Cart />
+        </Route>
+        <Route exact path="/profile">
+          <Profile />
+        </Route>
+        <Route exact path="/sidebar">
+          <Sidebar />
         </Route>
       </Switch>
     </>

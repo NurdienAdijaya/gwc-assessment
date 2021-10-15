@@ -1,27 +1,28 @@
 import React from "react";
-import cart from "../assets/images/shopping-cart.png";
 import back from "../assets/images/vector.png";
-import { Link } from "react-router-dom";
 import "../assets/styles/cart.css";
 import headphone from "../assets/images/headphones.png";
 import trash from "../assets/images/trash-2.png";
+import trash1 from "../assets/images/trash-1.png";
+
 import plus from "../assets/images/plus.png";
 import minus from "../assets/images/minus.png";
 import cable from "../assets/images/cable.png";
 import chevronRight from "../assets/images/chevron-right.png";
+import Header from "../components/header";
 
 const Cart = () => {
   return (
     <div>
-      <div className="detail_header">
-        <Link to="/">
-          <img src={back} alt="Back" />
-        </Link>
-        <p className="cart_title">Shopping Cart</p>
-        <Link to="/cart">
-          <img src={cart} alt="Cart" />
-        </Link>
-      </div>
+      <Header
+        link1="/"
+        img1={back}
+        alt1="Back"
+        title="Shopping Cart"
+        link2="/cart"
+        img2={trash1}
+        alt2="Clear All"
+      />
       <div className="cart_list">
         <div className="cart_item">
           <img className="cart_img" src={headphone} alt="img" />
