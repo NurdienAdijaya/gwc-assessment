@@ -1,3 +1,25 @@
+# Welcome to NURD x Radio Slice Project.
+
+You can see live app at https://nurd-radio.netlify.app/
+
+This project was created in order to slicing assessment.
+
+What is implemented in this project?
+
+- Responsive for tablet or tablet devices
+- PWA (Progressive Web Apps) so user can download this app in chrome for desktop and android
+
+If you want to ask more about this project, feel free to reach me at:
+
+<p align="center">
+<a href="https://linkedin.com/in/nurdienadijaya" target="_blank"><img src="https://img.shields.io/badge/-nurdien%20adijaya-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nurdienadijaya@gmail.com"><img src="https://img.shields.io/badge/-nurdienadijaya@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://instagram.com/nurdienadijaya"><img src="https://img.shields.io/badge/-@nurdienadijaya-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<a href="https://facebook.com/nurdienadijaya"><img src="https://img.shields.io/badge/-@nurdienadijaya-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+</p>
+
+theres some documentation:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
