@@ -1,6 +1,6 @@
 .badge_body {
   display: flex;
-
+  white-space: nowrap;
   overflow-x: auto;
   margin: 0 0 1.25rem 0;
 }

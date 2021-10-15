@@ -8,6 +8,7 @@ import Searchbar from "../components/searchbar";
 import logo from "../assets/images/logo.png";
 import avatar from "../assets/images/avatar.png";
 import menu from "../assets/images/menu.png";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -29,9 +30,11 @@ const Homepage = () => {
           <p className="user">Hi, Nurdien</p>
           <p className="message">What are you looking for today?</p>
         </div>
-        <div className="search">
-          <Searchbar />
-        </div>
+        <Link to="/explore">
+          <div className="search">
+            <Searchbar />
+          </div>
+        </Link>
       </div>
       <div className="home_content">
         <PillBadge />

@@ -1,0 +1,35 @@
+.filter_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: inherit;
+  height: 2.25rem;
+  justify-content: space-between;
+}
+.filter_title {
+  width: 16.75rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.0125rem;
+  color: #000000;
+  flex: none;
+}
+.filter_close {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.filter_category {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 23.5625rem;
+  margin: 1.5625rem 0rem;
+}
+.filter_category_text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.0125rem;
+  color: #000000;
+  margin: 0.625rem 0rem !important;
+}

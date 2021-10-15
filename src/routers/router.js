@@ -2,6 +2,7 @@ import { Route, Switch } from "react-router";
 import Sidebar from "../components/sidebar";
 import Cart from "../pages/cart";
 import Detail from "../pages/detail";
+import Explore from "../pages/explore";
 import Homepage from "../pages/homepage";
 import Login from "../pages/login";
 import Profile from "../pages/profile";
@@ -26,6 +27,9 @@ const Routers = () => {
         </Route>
         <Route exact path="/sidebar">
           <Sidebar />
+        </Route>
+        <Route exact path="/explore">
+          <Explore />
         </Route>
       </Switch>
     </>

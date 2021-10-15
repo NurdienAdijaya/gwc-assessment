@@ -3,7 +3,7 @@
   width: 100%;
   justify-content: center;
   align-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .lastest_container {
   display: flex;
@@ -15,48 +15,48 @@
 }
 .lastest_title {
   position: static;
-  height: 20px;
+  height: 1.25rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.0125rem;
 
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 .lastest_list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 .lastest_list_container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 20px;
-  margin: 10px 0px;
+  height: 1.25rem;
+  margin: 0.625rem 0rem;
 }
 .lastest_list_icon1 {
   position: static;
-  width: 20px;
-  height: 20px;
-  margin: 0px 10px;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0rem 0.625rem;
 }
 .lastest_list_text {
   position: static;
-  width: 266px;
-  height: 20px;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  margin: 0px 10px;
+  width: 16.625rem;
+  height: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.0125rem;
+  margin: 0rem 0.625rem;
 }
 .lastest_list_icon2 {
   position: static;
-  width: 20px;
-  height: 20px;
-  margin: 0px 10px;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0rem 0.625rem;
 }
 .popular_item {
   /* Auto Layout */
@@ -64,10 +64,10 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  width: 326px;
-  height: 75px;
+  width: 20.375rem;
+  height: 4.6875rem;
 
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 
   /* Inside Auto Layout */
 
@@ -75,16 +75,16 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-  margin: 25px 0px;
+  margin: 1.5625rem 0rem;
 }
 .popular_item_img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 75px;
-  height: 75px;
+  width: 4.6875rem;
+  height: 4.6875rem;
   background: #f6f6f6;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   flex: none;
 }
 .popular_item_detail {
@@ -92,7 +92,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0px 15px;
+  margin: 0rem 0.9375rem;
 }
 .popular_item_detail_text {
   display: flex;
@@ -100,17 +100,17 @@
   align-items: flex-start;
 }
 .popular_item_detail_title {
-  font-size: 16px;
-  line-height: 21px;
-  letter-spacing: 0.2px;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  letter-spacing: 0.0125rem;
 }
 .popular_item_detail_price {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.2px;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0125rem;
 
-  margin: 5px 0px !important;
+  margin: 0.3125rem 0rem !important;
 }
 .popular_item_detail_item {
   /* Auto Layout */
@@ -118,7 +118,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 7px 0px;
+  margin: 0.4375rem 0rem;
 }
 .popular_item_user_rating {
   /* Auto Layout */
@@ -126,7 +126,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 216px;
+  width: 13.5rem;
 }
 .popular_item_rating {
   /* Auto Layout */
@@ -134,28 +134,28 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 37px;
-  margin: 0px 10px 0 0;
+  width: 2.3125rem;
+  margin: 0rem 0.625rem 0 0;
 }
 .popular_item_rating_star {
-  width: 16px;
-  margin: 0px 3px;
+  width: 1rem;
+  margin: 0rem 0.1875rem;
 }
 .popular_item_rating_value {
-  width: 18px;
-  height: 16px;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
-  margin: 0px 3px !important;
+  width: 1.125rem;
+  height: 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.0125rem;
+  margin: 0rem 0.1875rem !important;
 }
 .popular_item_review {
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
-  margin: 0px 10px !important;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.0125rem;
+  margin: 0rem 0.625rem !important;
 }
 .popular_item_detail_more {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
