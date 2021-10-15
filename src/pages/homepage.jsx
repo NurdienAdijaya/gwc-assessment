@@ -11,7 +11,7 @@ import menu from "../assets/images/menu.png";
 
 const Homepage = () => {
   return (
-    <div className="home_body">
+    <>
       <Header
         link1="/sidebar"
         img1={menu}
@@ -19,6 +19,7 @@ const Homepage = () => {
         imgTitle={logo}
         altTitle="Logo"
         title=" Audio"
+        g
         link2="/profile"
         img2={avatar}
         alt2="User Avatar"
@@ -43,7 +44,7 @@ const Homepage = () => {
           <Product />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
